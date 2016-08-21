@@ -1,5 +1,5 @@
 # Quiz-App
-Udacity Android Basics Nanodegree Project 2
+Udacity Android Basics Nanodegree Project 3
 
 A simple Quiz App.
 
