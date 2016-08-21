@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giftly_repeating"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Who is known as the father of Internet?" />
+
+            <EditText
+                android:id="@+id/answer_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="Type here"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Which of these is not an Operating System?" />
+
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerTwo"
+                    android:text="Linux"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerTwo"
+                    android:text="Windows"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerTwo"
+                    android:text="Macintosh"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/option_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerTwo"
+                    android:text="Penguin"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. 1024 bits equals?" />
+
+            <CheckBox
+                android:id="@+id/cboption_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:onClick="onCheckboxClicked"
+                android:text="1 MB"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cboption_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:onClick="onCheckboxClicked"
+                android:text="128 bytes"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cboption_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:onClick="onCheckboxClicked"
+                android:text="1 GB"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cboption_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:onClick="onCheckboxClicked"
+                android:text="256 bytes"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. What does internet prefix WWW stand for?" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q4_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFour"
+                    android:text="Western Washington World"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/q4_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFour"
+                    android:text="World Wide Weather"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/q4_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFour"
+                    android:text="Wide Width Tickets"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/q4_option_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFour"
+                    android:text="World Wide Web"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. An network designed to allow communication within an organization?" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q5_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFive"
+                    android:text="the Internet"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/q5_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFive"
+                    android:text="Yahoo!"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/q5_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFive"
+                    android:text=" an Intranet"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/q5_option_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerFive"
+                    android:text="the World Wide Web"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/submitButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:gravity="center_horizontal"
+            android:onClick="endQuiz"
+            android:text="GO"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
