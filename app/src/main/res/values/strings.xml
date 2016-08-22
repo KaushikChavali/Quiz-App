@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="question_one">1. Who is known as the father of Internet?</string>
+    <string name="hint">Type here</string>
+    <string name="question_two">2. Which of these is not an Operating System?</string>
+    <string name="question_three">3. 1024 bits equals?</string>
+    <string name="question_four">4. What does internet prefix WWW stand for?</string>
+    <string name="question_five">5. An network designed to allow communication within an organization?</string>
     <string name="instructions">1. The quiz consists of 5 questions.\n2. 20 points awarded for each correct answer.\n3. No points for wrong answer.\n4. Unanswered questions will be counted as incorrect.\n5. There are three possible question types:\n  a. Multiple Choice\n  b. Only one correct answer.\n  c. Type in the answer.</string>
 </resources>

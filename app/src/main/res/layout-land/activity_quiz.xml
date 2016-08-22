@@ -19,7 +19,7 @@
                 style="@style/CustomSpacing"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Who is known as the father of Internet?" />
+                android:text="@string/question_one" />
 
             <EditText
                 android:id="@+id/answer_one"
@@ -27,14 +27,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:hint="Type here"
+                android:hint="@string/hint"
                 android:textSize="16sp" />
 
             <TextView
                 style="@style/CustomSpacing"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2. Which of these is not an Operating System?" />
+                android:text="@string/question_two" />
 
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@
                 style="@style/CustomSpacing"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3. 1024 bits equals?" />
+                android:text="@string/question_three" />
 
             <CheckBox
                 android:id="@+id/cboption_1"
@@ -118,7 +118,7 @@
                 style="@style/CustomSpacing"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4. What does internet prefix WWW stand for?" />
+                android:text="@string/question_four" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
@@ -163,7 +163,7 @@
                 style="@style/CustomSpacing"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="5. An network designed to allow communication within an organization?" />
+                android:text="@string/question_five" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
