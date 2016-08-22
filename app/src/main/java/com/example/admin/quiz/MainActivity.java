@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.instructions:
                 new AlertDialog.Builder(this)
                         .setTitle("Instructions")
-                        .setMessage("1. The quiz consists of 5 questions.\n2. 20 points awarded for each correct answer.\n3. No points for wrong answer.\n4. Unanswered questions will be counted as incorrect.\n5. There are three possible question types:\n  a. Multiple Choice\n  b. Only one correct answer.\n  c. Type in the answer.")
+                        .setMessage(R.string.instructions)
                         .setNegativeButton("Close", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 //do nothing
